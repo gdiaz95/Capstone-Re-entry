@@ -1,3 +1,32 @@
-.venv/
-Data/*.csv
+# === Data & artifacts (keep folder structure via .gitkeep) ===
+Data/*
+!Data/.gitkeep
+!Data/*/.gitkeep
 
+models/*
+!models/.gitkeep
+
+reports/*
+!reports/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# === Python junk ===
+__pycache__/
+*.py[cod]
+*.pyd
+
+# === Virtual environments ===
+.venv/
+venv/
+.env
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Logs ===
+*.log
+
+# === OS files ===
+.DS_Store
+Thumbs.db
