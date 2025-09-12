@@ -1,7 +1,8 @@
 # === Data & artifacts (keep folder structure via .gitkeep) ===
-Data/*
-!Data/.gitkeep
-!Data/*/.gitkeep
+Data/**
+!Data/**/
+!Data/**/.gitkeep
+
 
 models/*
 !models/.gitkeep
